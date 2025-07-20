@@ -1,0 +1,50 @@
+***** del keyword
+    used to delete object properties or object itself
+
+    del s1.name     ; delete properties
+    del s1          ; delete full object
+
+***** private(like) attributes and methods
+    - Conceptual implementation in Python
+    - private attributes and methods are meant to be used only with in the class
+        and are not accessible from outside the class
+
+***** Inheritance
+    when one class(chile) derives the properties and method of another class (base/parents)
+
+    class Car:
+    ...............
+    ..........
+    class ToyotoCar(Car):
+    ....................
+    .................
+
+    - 3 types of inheritance
+        - Single inheritance
+        - Multi - level inheritance
+        - Multiple inheritance
+
+***** super method
+    - super() method is used to access methods of the parent class
+
+***** class method
+    - a class method is bound to the class & receives the class as an implicit first argument
+    - static method can not access or modify class state & generally for utility
+
+   class Student:
+            @classmethod
+            def college(cls):
+                    pass
+
+***** Property decorator
+    - we use @property decorator on any method in the class to use the method as a property
+
+***** Polymorphism   -> operator overloading
+    - when the same operator is allowed to a different meaning according to the context
+
+    Operators & Dunder function:
+        -> a + b  #addition  a.__add__(b)
+        -> a - b  #subtraction  a.__sub__(b)
+        -> a * b  #multiplication  a.__mul__(b)
+        -> a / b  #divition  a.__truediv___(b)
+        -> a % b  #modulus  a.__mod___(b)

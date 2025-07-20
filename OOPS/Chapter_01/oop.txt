@@ -1,0 +1,34 @@
+***** To map the real world scenarios, we started using objects in code,
+    this is called Object oriented Programming.
+
+    # Redundancy decrease, Reusability increase
+
+ class -> object
+ * class is a blueprint using objects; class name always start capital letter
+
+***** __init__ function *****
+constructor : all classes have a function called _init_() ,
+            which is always executed when the class is being initiated.
+
+
+***** class and instance attribute *****
+    Class.attr
+    obj.attr
+
+***** Methods are functions that belong to objects. *****
+
+***** Static method: That don't use self parameter (work at class level)
+    class Student:
+        @ static method     # decorator
+        def college:
+            print("abc college")
+
+    # decorators allow us to warp another function in order to extend the behavior
+        of the warped function. without permanently modifying it.
+
+
+***** Abstraction: Hiding the implementation details of a class and only showing
+        the essential features of the users.
+
+
+***** Encapsulation: Wrapping data and functions into a single unit (object)

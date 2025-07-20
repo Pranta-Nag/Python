@@ -1,0 +1,6 @@
+r+ => opens for reading and writing (cannot truncate a file),
+w+ => for writing and reading (can truncate a file),
+rb+ => reading or writing a binary file,
+wb+ => writing a binary file,
+a+ => opens for appending 
+Next I'll move mern stack.
