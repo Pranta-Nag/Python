@@ -24,3 +24,6 @@ print(fruits)
 fruits.pop(3)
 print(fruits)
 
+fruits.remove("mango")
+print(fruits)
+

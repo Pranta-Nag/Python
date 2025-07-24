@@ -28,9 +28,15 @@ print(letter.replace("<name>", name).replace("<date>", date))
 
 ##### Write a program to detect double space in a string
 
-text = "I am a good boy."
+text = "I am a good  boy."
 
 print(text.find("  "))              # find double space
+
+
+
+##### Replace the double space form problem 3 with single space
+
+print(text.replace("  ", " "))
 
 
 
