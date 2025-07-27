@@ -21,5 +21,11 @@ null_info["Name"] = "Pranta"
 null_info["Sub name"] = "Nag"
 print(null_info)
 
+null_info.update({"Id" : 44})
+print(null_info)
+
+null_info.pop("Name")               # remove name pair
+print(null_info)
+
 
 

@@ -13,5 +13,12 @@ print(tup2.index(2))        # print index number of value: 2
 tup3 = (4,2,7,2 ,6,2)
 print(tup3.count(2))
 
+repeated = tup * 3          # repeated tup3 tuple 3 times
+print(repeated)
+
+print(min(tup3))            # return minimum number
+print(max(tup3))               # return max number
+
+print(7 in tup3)            # RETURN true
 
 

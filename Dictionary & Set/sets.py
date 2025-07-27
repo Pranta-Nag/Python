@@ -29,4 +29,7 @@ null_set.clear()                # empties the set
 print(null_set)
 
 
+a = (4, 6,7, 3)
+
+print({6,3}.issubset(a))            # subset
 
